@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: black;
+	color: white;
+	
+}
+
+img { 
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	}
+
+.contactForm {
+	margin: 50px 0;
+}
+
+.contactEmail {
+	text-decoration: none;
+}
+
+.contactItem {
+	margin-bottom: 30px;
+}
+
+input{ 
+width: 200px;
+height: 30px;
+ }
+
+ button{
+ 	width: 100px;
+ 	height: 30px;
+ }
