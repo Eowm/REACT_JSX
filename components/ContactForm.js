@@ -8,17 +8,17 @@ var ContactForm = React.createClass({
       <form className={'contactForm'}>
         <label className={'label'}>
           First name:
-          <input type:'text' placeholder:'First Name' value={this.props.contact.firstName}/>
+          <input type='text' placeholder='First Name' value={this.props.contact.firstName}/>
         </label>
         <label className={'label'}>
           Last name:
-          <input type:'text' placeholder:'Last Name' value={this.props.contact.lastName}/>
+          <input type='text' placeholder='Last Name' value={this.props.contact.lastName}/>
         </label>
         <label className={'label'}>
           Email:
-          <input type:'email' placeholder:'Email' value={this.props.contact.email}/>
+          <input type='email' placeholder='Email' value={this.props.contact.email}/>
         </label>
-        <button type: 'submit'>
+        <button type='submit'>
           Add contact
         </button>
       </form>
