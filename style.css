@@ -21,6 +21,10 @@ img {
 	margin: 50px 0;
 }
 
+.contactList{
+	font-size: 30px;
+}
+
 .contactEmail {
 	text-decoration: none;
 }
