@@ -11,7 +11,7 @@ var ContactForm = React.createClass({
           <input type:'text' placeholder:'First Name' value={this.props.contact.firstName}/>
         </label>
         <label className={'label'}>
-          First name:
+          Last name:
           <input type:'text' placeholder:'Last Name' value={this.props.contact.lastName}/>
         </label>
         <label className={'label'}>
